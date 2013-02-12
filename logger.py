@@ -4,9 +4,9 @@ class Logger(object):
 		self.messages = []
 
 	def dump(self):
-		print "Dump %s messages:" % len(self.messages)
+		print("Dump %s messages:" % len(self.messages))
 		for message in self.messages:
-			print message
+			print(message)
 
 	def debug(self, msg):
 		if self.level == 'debug':

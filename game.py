@@ -249,7 +249,7 @@ class Game(object):
 
 			self.logger.debug("End of game")
 
-		except Exception, err:
+		except Exception as err:
 			pass
 
 		finally:
